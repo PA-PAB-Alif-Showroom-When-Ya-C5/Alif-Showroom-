@@ -188,34 +188,7 @@ dev_dependencies:
 ---
 
 ## 📁 Struktur Folder
-lib/
-├── main.dart
-├── app/
-│   ├── config/        # AppTheme, AppConfig
-│   ├── routes/        # AppRoutes, AppPages
-│   ├── bindings/      # InitialBinding
-│   └── middleware/    # AuthMiddleware
-├── core/
-│   ├── constants/     # SupabaseTable, AppConstants
-│   ├── enums/         # AppEnums (role, status, dll.)
-│   ├── services/      # AuthService, StorageService
-│   └── utils/         # Validator, Formatter, Launcher
-├── shared/
-│   ├── models/        # MobilModel, PengajuanModel, dll.
-│   └── widgets/       # Widget reusable lintas fitur
-└── features/
-├── auth/          # Login, Register
-├── guest/         # Beranda, Katalog, Detail, Kredit
-├── admin/
-│   ├── dashboard/ # Dashboard + bottom nav shell
-│   ├── mobil/     # CRUD mobil
-│   ├── pengajuan/ # Kelola pengajuan seller
-│   ├── transaksi/ # Transaksi penjualan
-│   └── laporan/   # Laporan & export Excel
-└── seller/
-├── dashboard/ # Dashboard seller
-├── pengajuan/ # Ajukan & riwayat pengajuan
-└── profil/    # Profil seller
+<img width="392" height="565" alt="image" src="https://github.com/user-attachments/assets/98607989-ed87-47df-ad8e-12981535ba35" />
 
 ---
 
@@ -231,9 +204,7 @@ lib/
 
 ---
 
-## 📝 Lisensi
-
-Proyek ini dibuat untuk keperluan akademik — Tugas Akhir Mata Kuliah Pemrograman Aplikasi Bergerak.
+Proyek ini dibuat untuk keperluan akademik — Tugas Akhir Praktikum Pemrograman Aplikasi Bergerak.
 
 ---
 
