@@ -1,0 +1,58 @@
+name: showroom_mobil
+description: Aplikasi showroom mobil berbasis Flutter dan Supabase.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Supabase
+  supabase_flutter: ^2.8.4
+  # Environment
+  flutter_dotenv: ^5.2.1
+  # State Management + Navigation
+  get: ^4.7.2
+  # UI
+  carousel_slider: ^5.0.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  fl_chart: ^0.70.2
+  # File & Media
+  image_picker: ^1.1.2
+  file_picker: ^8.1.6
+  # Utility
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+  excel: ^4.0.6
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+  # Extra
+  flutter_svg: ^2.0.17
+  lottie: ^3.3.0
+  share_plus: ^10.1.4
+  connectivity_plus: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/app_icons/LogoShowroom.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#2d2654"
+  adaptive_icon_foreground: "assets/app_icons/LogoShowroom.png"
+  web:
+    generate: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/kredit_info.jpeg
