@@ -282,7 +282,7 @@ class _TombolWhatsapp extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton.icon(
         onPressed: () => WhatsappLauncher.tanyaMobil(
-          namaMobil: '${mobil.merek} ${mobil.tipeModel}',
+          '${mobil.merek} ${mobil.tipeModel}',
         ),
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFF25D366),
